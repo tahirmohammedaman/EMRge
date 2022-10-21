@@ -16,7 +16,7 @@ namespace EMRge
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
-            Application.Run(new Form1());
+            Application.Run(new FormMain("EMP-B30C"));
         }
     }
 }
