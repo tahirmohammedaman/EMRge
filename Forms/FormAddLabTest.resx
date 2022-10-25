@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CheckBox0.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel4.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel5.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel6.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel7.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel8.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel9.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel10.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel11.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel12.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel13.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel14.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel15.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel16.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <data name="CheckBox13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel17.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel18.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox17.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel19.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel20.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel21.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel22.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel23.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel24.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel25.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox20.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox19.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel26.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel27.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel29.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel30.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="CheckBox24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CheckBox23.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuLabel31.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 1px;font-family: 'Open Sans'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel32.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Open Sans'; font-size: 9.75pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
+  </data>
+  <data name="CheckBox22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYhc8JAEIVPIisrkcjKykokkp9QWVmJi4ys
+        jMpcEnOyEomsRCKRSGT6ve1RypAhGeamguHNvMm9zebtZTNzG/fvKIpiVFXVW13XHm5gO4DKC9779xDC
+        Q7Q6BwkvmH+RnHOdo8fx1kUoj/wZz2VwDafx1hEKyrwsy0kMXYWmaR7xWmqDMfTTFlUeuuM+qE3yUzEL
+        qHcEMhOJgN8rb/FxEEE9NJEI7P5JLTfBYnfx618JNt6eLhLjXqAX9wK9uK0Cex14JhLib4GlZoGJRNDJ
+        jO/GBItMJ6qJRNA8wNebiNXWKduE34oiz1FaRZvDKYrgk8Pz+UJwoTMczn6n0UDEKTaFq07zAzSTSdAA
+        2nLt+oPoJPk7+AmPbXHOfQPKsyqt6qQi+AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnAddTests.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAKIAAAA4CAYAAAB+DyM+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEdSURBVHhe7dQxSsVQEIbRlC7NDbgEF+EerFyNePN4tS9X
+        3IEbsBBBLBQmJtZpE/7iDBy4MFN+3GGdem7X1cfXuY8zHGVtrvrp9j/CuZ9uamofW4ewtyXGz7q0u2F5
+        vG0dwFGqt+/lR9xewpGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRI
+        BCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGI
+        RBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESIShXsb3rQUcpXr7HerS7quPX1sHsLeann5qao/DOkuI
+        D1tHsLc1wvl8vvoD85zTcG3MzMoAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>
