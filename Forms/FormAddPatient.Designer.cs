@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddPatient));
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -110,6 +111,8 @@
             this.RadioMale = new Bunifu.UI.WinForms.BunifuRadioButton();
             this.radioFemale = new Bunifu.UI.WinForms.BunifuRadioButton();
             this.DateOfBirthPicker = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuLabel6
@@ -1890,7 +1893,7 @@
             this.BtnAddPatient.Location = new System.Drawing.Point(820, 583);
             this.BtnAddPatient.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.BtnAddPatient.Name = "BtnAddPatient";
-            this.BtnAddPatient.Size = new System.Drawing.Size(125, 147);
+            this.BtnAddPatient.Size = new System.Drawing.Size(131, 147);
             this.BtnAddPatient.TabIndex = 22;
             this.BtnAddPatient.Click += new System.EventHandler(this.BtnAddPatient_Click);
             // 
@@ -2182,6 +2185,10 @@
             this.DateOfBirthPicker.Size = new System.Drawing.Size(256, 32);
             this.DateOfBirthPicker.TabIndex = 6;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FormAddPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -2224,6 +2231,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormAddPatient";
             this.Load += new System.EventHandler(this.FormAddPatient_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2260,5 +2268,6 @@
         private Bunifu.UI.WinForms.BunifuRadioButton RadioMale;
         private Bunifu.UI.WinForms.BunifuRadioButton radioFemale;
         private Bunifu.UI.WinForms.BunifuDatePicker DateOfBirthPicker;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
