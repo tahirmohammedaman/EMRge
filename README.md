@@ -1,5 +1,36 @@
 # EMRge
 
+EMRge is a comprehensive Electronic Medical Records (EMR) desktop application built to manage the day-to-day operations of a hospital or healthcare facility. It brings patient records, clinical workflows, staff administration, and billing together in a single C# WinForms application backed by a SQL Server database, streamlining hospital operations, improving patient care, and reducing administrative overhead.
+
+## Features
+
+- **Login & Access Control** — Employees sign in with an ID and password. Access to each module is restricted based on the employee's role and credentials, with an "Access Denied" prompt for unauthorized modules.
+- **Dashboard** — A summary view of key hospital stats is shown on launch, with a sidebar for navigating between modules.
+- **Patient Management** — Maintain in-patient and out-patient records, including personal details, health stats (blood type, height, weight), emergency contacts, and registration/room information. Patients can be searched by ID or phone number, added, edited, and removed.
+- **Examination Workflow** — View the queue of patients waiting for examination, order lab tests, prescribe medications, and record a diagnosis to complete an examination.
+- **Laboratory Workflow** — View the queue of pending lab tests ordered by physicians, enter results, and submit them to complete the test.
+- **Staff Management** — Browse, search, filter (by branch, department, salary range), and sort employee records, view detailed employee info, and add new staff.
+- **Billing** — Look up a patient by ID or phone number to view their outstanding bills and mark them as paid. Bills for registrations, examinations, and lab tests are generated automatically via database triggers.
+- **Automated Tests** — NUnit tests cover key forms such as adding patients, examination records, and laboratory tests.
+
+## Tech Stack
+
+- C# / .NET Framework (WinForms)
+- Bunifu UI controls for the user interface
+- Microsoft SQL Server for data storage (schema and stored procedures in [`SQLQueries.sql`](SQLQueries.sql))
+- NUnit for unit testing (see [`NUnitTests`](NUnitTests))
+
+## Getting Started
+
+1. Set up a SQL Server instance and create the `EMRge` database using the schema, stored procedures, functions, and triggers defined in [`SQLQueries.sql`](SQLQueries.sql).
+2. Point the connection string in `EMRgeDB` to your SQL Server instance.
+3. Open `EMRge.sln` in Visual Studio and build the project.
+4. Run the application and log in with a valid employee ID and password.
+
+## Documentation
+
+For a full breakdown of the application's modules and workflows, see the [User Documentation](User%20Documentation.pdf). For details on the underlying classes, database schema, stored procedures, and triggers, see the [System Documentation](System%20Documentation.pdf).
+
 ## Screenshots
 
 #### Login
